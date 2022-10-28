@@ -18,6 +18,22 @@ return require('packer').startup(function(use)
         }
     }
     use 'marko-cerovac/material.nvim'
+
+    use {
+        'ZhiyuanLck/smart-pairs',
+        event = 'InsertEnter',
+        config = function()
+            require('pairs'):setup()
+        end
+    }
+
+    use {
+        'nmac427/guess-indent.nvim',
+        config = function()
+            require('guess-indent').setup {}
+        end
+    }
+
     use 'neovim/nvim-lspconfig'
 
     use 'hrsh7th/cmp-nvim-lsp'

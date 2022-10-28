@@ -1,18 +1,15 @@
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
+-- CCLS
 require'lspconfig'.ccls.setup {
+    capabilities = capabilities
+}
+-- EOL CCLS
+-- clangd
+require'lspconfig'.clangd.setup {
     capabilities = capabilities,
 }
-local lspconfig = require 'lspconfig'
-lspconfig.ccls.setup {
-    init_options = {
-        compilationDatabaseDirectory = "build",
-        index = {
-            threads = 0
-        },
-        clang = {
-            excludeArgs = {"-frounding-math"}
-        }
-    }
-}
+-- EOL clangd
 
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
