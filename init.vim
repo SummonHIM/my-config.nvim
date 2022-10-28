@@ -11,5 +11,3 @@ colorscheme material
 set completeopt=menu,menuone,noselect
 
 nmap <C-b> :NvimTreeToggle<CR>
-
-echo "欢迎回来！主人。本 Neo Vim 具有超级牛力。"
