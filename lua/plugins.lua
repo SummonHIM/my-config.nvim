@@ -34,8 +34,6 @@ return require('packer').startup(function(use)
         end
     }
 
-    use({ 'mrjones2014/legendary.nvim' })
-
     use 'neovim/nvim-lspconfig'
 
     use 'hrsh7th/cmp-nvim-lsp'
@@ -55,4 +53,10 @@ return require('packer').startup(function(use)
 
     use 'dcampos/nvim-snippy'
     use 'dcampos/cmp-snippy'
+
+    use {
+        'nvim-telescope/telescope.nvim',
+        tag = '0.1.0',
+        requires = {{'nvim-lua/plenary.nvim'}}
+    }
 end)

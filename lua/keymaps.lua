@@ -1,0 +1,1 @@
+vim.keymap.set('n', '<C-b>', ":NvimTreeToggle<CR>", {silent = true})
