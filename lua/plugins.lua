@@ -34,6 +34,8 @@ return require('packer').startup(function(use)
         end
     }
 
+    use({ 'mrjones2014/legendary.nvim' })
+
     use 'neovim/nvim-lspconfig'
 
     use 'hrsh7th/cmp-nvim-lsp'

@@ -1,0 +1,7 @@
+require('plugins')
+require('lsp/nvim-cmp')
+require('lsp/nvim-lspconfig')
+require('theme/material')
+require('tools/nvim-lualine')
+require('tools/nvim-tree')
+require('tools/nvim-barbar')
