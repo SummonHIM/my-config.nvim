@@ -1,11 +1,5 @@
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
--- clangd
-require'lspconfig'.clangd.setup {
-    capabilities = capabilities,
-}
--- EOL clangd
-
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = {
@@ -71,3 +65,8 @@ require('lspconfig')['rust_analyzer'].setup {
         ["rust-analyzer"] = {}
     }
 }
+-- clangd
+require'lspconfig'.clangd.setup {
+    capabilities = capabilities,
+}
+-- EOL clangd
