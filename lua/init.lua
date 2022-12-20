@@ -1,16 +1,3 @@
-vim.cmd([[
-    set number
-    colorscheme material
-    set completeopt=menu,menuone,noselect
-    set list
-    set tabstop=4
-    set softtabstop=4
-    set shiftwidth=4
-    set autoindent
-    set smartindent
-    set nowrap
-]])
-
 require('plugins')
 require('keymaps')
 require('lsp/nvim-cmp')
@@ -27,3 +14,16 @@ require('lualine').setup {
 require('tools/nvim-tree')
 require("dapui").setup()
 require("tools/nvim-dap")
+
+vim.cmd([[
+    set number
+    colorscheme material
+    set completeopt=menu,menuone,noselect
+    set list
+    set tabstop=4
+    set softtabstop=4
+    set shiftwidth=4
+    set autoindent
+    set smartindent
+    set nowrap
+]])
