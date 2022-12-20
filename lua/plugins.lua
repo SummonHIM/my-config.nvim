@@ -60,5 +60,18 @@ return require('packer').startup(function(use)
         requires = {{'nvim-lua/plenary.nvim'}}
     }
 
-    use 'mhartington/formatter.nvim'
+    use 'sbdchd/neoformat'
+
+    use {
+        'lewis6991/gitsigns.nvim',
+        config = function()
+            require('gitsigns').setup()
+        end
+    }
+
+    use 'mfussenegger/nvim-dap'
+    use {
+        "rcarriga/nvim-dap-ui",
+        requires = {"mfussenegger/nvim-dap"}
+    }
 end)
