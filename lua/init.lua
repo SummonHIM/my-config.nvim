@@ -24,7 +24,7 @@ local plugins = {
     {
         "EdenEast/nightfox.nvim",
         config = function()
-            vim.cmd("colorscheme Carbonfox")
+            vim.cmd("colorscheme carbonfox")
         end
     },
 

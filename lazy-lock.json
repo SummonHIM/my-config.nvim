@@ -14,7 +14,7 @@
   "diffview.nvim": { "branch": "main", "commit": "3dc498c9777fe79156f3d32dddd483b8b3dbd95f" },
   "fzf-lua": { "branch": "main", "commit": "4f2ba97e7fd3429342963b8ae205e35e75d5ca16" },
   "gitsigns.nvim": { "branch": "main", "commit": "d195f0c35ced5174d3ecce1c4c8ebb3b5bc23fa9" },
-  "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
+  "lazy.nvim": { "branch": "main", "commit": "28126922c9b54e35a192ac415788f202c3944c9f" },
   "lualine.nvim": { "branch": "master", "commit": "566b7036f717f3d676362742630518a47f132fff" },
   "neogit": { "branch": "master", "commit": "525b7cb4dacc4b7d50dc31475d293c0b97d10a7b" },
   "neovim-tasks": { "branch": "master", "commit": "2730051a3ff2eaf34e392f2304bab217d884fc30" },
