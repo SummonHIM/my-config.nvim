@@ -1,0 +1,1 @@
+vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, opts)
