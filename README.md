@@ -1,16 +1,13 @@
 #
 ## Install
 ### Frontends
-#### ripgrep
-https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
-
 #### Python
 ```Shell
 pip install neovim
 ```
 
-#### clangd
-https://clangd.llvm.org/installation.html
+#### ripgrep (For Windows)
+https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 
 ### Clone config
 #### Windows
